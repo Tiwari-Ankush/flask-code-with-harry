@@ -21,6 +21,10 @@ class Todo(db.Model):
 
 @app.route('/')
 def hello_world():
+    todo=Todo(title="First todo", descr="ankush tiwari")  # this is a todo ka instance
+    db.session.add(todo)
+    db.session.commit()
+    
     return render_template('index.html')
     # return 'Hello, Ankush!'
 
