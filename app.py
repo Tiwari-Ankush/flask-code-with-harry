@@ -6,6 +6,8 @@ def hello_world():
     return render_template('index.html')
     # return 'Hello, Ankush!'
 
+# @app.route()
+
 @app.route('/about')
 def about():
     return 'Ankush Tiwari\nemail: ankushtiwari@gmail.com'
