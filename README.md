@@ -63,3 +63,9 @@ in our main app.py, there is homepage route ('/')
    in that we will add, instance >> by which we can understand and database interact..
        > first we add todo instance (todo=Todo(title="First todo",  descr="ankush tiwari")  # this is a todo ka instance)
        >then write a add instance and commit instance of that session
+
+       run the app.py
+       and add db file again into a https://inloop.github.io/sqlite-viewer/
+
+       output looks like >> 
+       
