@@ -69,3 +69,4 @@ in our main app.py, there is homepage route ('/')
 
        output looks like >> 
        
+    ![sqlite-viewer-op-01](https://github.com/TiwariBro/FLASK-COH/assets/92021625/425ac4c6-be15-4eec-93f0-a5dc76c1744c)
