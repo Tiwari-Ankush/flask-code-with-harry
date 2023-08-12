@@ -69,4 +69,52 @@ in our main app.py, there is homepage route ('/')
 
        output looks like >> 
        
-    ![sqlite-viewer-op-01](https://github.com/TiwariBro/FLASK-COH/assets/92021625/425ac4c6-be15-4eec-93f0-a5dc76c1744c)
+
+
+install extension call jinja2 temlpate >> 
+   In Flask, Jinja2 is a popular and widely used templating engine. A templating engine is a tool that allows you to separate your HTML markup from your Python code. This separation makes your code more organized and maintainable, especially for web applications that generate dynamic content.
+
+   Jinja2 templates in Flask serve as placeholders for dynamic data. They allow you to embed Python code within HTML templates. This is particularly useful for rendering data from your Flask application into HTML pages, generating dynamic content, and maintaining a clear separation between the presentation layer (HTML) and the application logic (Python).
+
+jfor >> jinja for loop
+variables dexlaration in jinja template>>
+    In Jinja2 templates, you can write variables by enclosing them within double curly braces: {{ variable_name }}.
+
+for getting and posting a request in app.route()
+we use >> @app.route('/', methods=['GET','POST'])
+
+
+Template inheritance>>
+    emplate inheritance, also known as template hierarchy or template inheritance hierarchy, is a concept commonly used in web development, especially in the context of content management systems (CMS) and templating engines. It refers to the organization and relationship between different templates used to generate a website's pages
+
+
+CRUD operations >>
+    create,read, update, delete
+
+for adding css and js in static way via jinja template
+    css >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+
+    js >
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+for deploying on heroku
+   install heroku CLI
+   then pip install gunicorn
+   then pip freeze > requirements.txt
+  
+   make Procfile for Heroku deplyment
+
+run heroku in CLI/CMD
+    if its not working then chck environment variables
+run heroku login
+    
+then commit all the changes
+
+next we will create a project by CLI
+   heroku create todo-app
+   you need add a payment method
+
+   push code to heroku github
+    >> git push heroku master
+ and finally our app is deployed.
