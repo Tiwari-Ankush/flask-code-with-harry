@@ -24,12 +24,13 @@ bash
 Copy code
 python3 -m venv venv
 source venv/bin/activate
-On Windows:
 
+On Windows:
 bash
 Copy code
+pip install virtualenv
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\activate
 Install Flask:
 Install Flask within the activated virtual environment:
 
